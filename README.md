@@ -7,7 +7,7 @@
 var a = []
 Array.isArray(a) 
 
-# true
+//true
 ```
 
 #### .length
@@ -20,5 +20,16 @@ array.length === 0
 var a = [1]
 arr.length > 0
 
-#true
+//true
+```
+
+
+## Object
+
+#### typeof
+```
+typeof {} === 'object';
+typeof {a: 1} === 'object'
+
+//true
 ```
